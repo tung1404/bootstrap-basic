@@ -11,7 +11,11 @@
 </head>
 
 <body>
-
+    <ul class="nav nav-pills">
+        <li><a href="#tab1" data-toggle="pill">Home</a></li>
+        <li><a href="#tab2" data-toggle="pill">Product</a></li>
+        <li><a href="#tab3" data-toggle="pill">Contact</a></li>
+    </ul>
     <div class="jumbotron">
         <div class="container-fluid">
             <header>
@@ -29,7 +33,29 @@
             </ul>
         </div>
         <br>
-        <button type="button" name="button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Search</button>
+        <button type="button" name="button" class="btn btn-primary">
+          <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+        <br>
+        <br>
+        <button class="btn btn-info" data-toggle="collapse" data-target="#cla1" type="button" name="button">Click to show</button>
+        <br>
+        <a href="#cla1" data-toggle="collapse">Click to show</a>
+        <div class="collapse" id="cla1">
+            This is a collapse
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-pane fade" id="tab1">
+            this is a tab-1
+          </div>
+          <div class="tab-pane fade in " id="tab2">
+            this is a tab-2
+          </div>
+          <div class="tab-pane fade" id="tab3">
+            this is a tab-3
+          </div>
+        </div>
     </div>
 </body>
 
