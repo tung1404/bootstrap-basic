@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        section {
+            width: 100vw;
+            height: 100vh;
+            padding: 50px;
+        }
+
+        .cl_white {
+            color: white;
+        }
+        .img-holder {
+          width: 620px;
+        }
+        img {
+            width: 300px;
+        }
+        img:hover {
+          opacity: .5;
+        }
+        .col-text {
+          -webkit-column-count: 3;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">What I do</a></li>
+            <li><a href="#about">What about me</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="cl_white text-center" style="background: url(images/header.jpg); background-size: 100% 100%;">
+        <h1>My portfolio</h1>
+        <p class="lead">Let read myself and contact me!</p>
+        <button class="btn btn-default" type="button" name="button">Contact me</button>
+    </section>
+
+    <section id="work" class="container">
+        <div class="page-header text-center">
+            <h1>My work</h1>
+        </div>
+        <div class="img-holder">
+            <img src="images/portfolio-1.jpg" alt="" class="img-thumbnail">
+            <img src="images/portfolio-2.jpg" alt="" class="img-thumbnail">
+            <img src="images/portfolio-3.jpg" alt="" class="img-thumbnail">
+            <img src="images/portfolio-4.jpg" alt="" class="img-thumbnail">
+        </div>
+    </section>
+    <section id="about" class="container">
+      <h2 class="text-center">My work</h2>
+      <div class="col-text">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      </div>
+    </section>
+</body>
+
+</html>
