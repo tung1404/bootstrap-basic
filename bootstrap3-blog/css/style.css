@@ -1,0 +1,13 @@
+.navbar a {
+  color: white;
+}
+.navbar li a:hover {
+  background: orange;
+}
+.navbar-custom {
+  position: absolute;
+  width: 100%;
+}
+header {
+    height: 400px;
+}
